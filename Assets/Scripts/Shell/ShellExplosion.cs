@@ -36,7 +36,6 @@ public class ShellExplosion : MonoBehaviour
 
             float damage = CalculateDamage(target.position);
             tankHealth.TakeDamage(damage);
-
         }
 
         m_ExplosionParticles.transform.parent = null;
